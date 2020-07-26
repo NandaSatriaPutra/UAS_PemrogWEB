@@ -5,15 +5,11 @@ import NavbarComp from './Component/Fungsional/NavbarComp';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import HomePage from './Component/Fungsional/HomePage';
 import AboutComp from './Component/Fungsional/AboutComp';
-import ListComp from './Component/Class/ListComp';
 import TambahComp from './Component/Class/TambahComp';
+import ListComp from './Component/Class/ListComp';
 import EditComp from './Component/Class/EditComp';
 import RegisterComp from './Component/Fungsional/RegisterComp';
-import ListBarangComp from './Component/Class/ListBarangComp';
-import TambahBarangComp from './Component/Class/TambahBarangComp';
 import EditBarangComp from './Component/Class/EditBarangComp';
-import ProdukComp from './Component/Fungsional/ProdukComp';
-import DetailComp from './Component/Fungsional/DetailProdukComp';
 import DaftarProduk from './Component/Fungsional/DaftarProduk';
 import DetailProdukComp from './Component/Fungsional/DetailProdukComp';
 // context
@@ -79,10 +75,8 @@ const App = (props) => {
           <Route exact path="/register" component={RegisterComp} />
           <Route exact path="/about" component={AboutComp} />
           <Route exact path="/supplier" component={ListComp} />
-          <Route exact path="/barang" component={ListBarangComp} />
-          <Route exact path="/supplier/tambahsupplier" component={TambahComp} />
-          <Route exact path="/barang/tambahbarang" component={TambahBarangComp} />
           <Route exact path="/supplier/edit" component={EditComp} />
+          <Route exact path="/supplier/tambahsupplier" component={TambahComp} />
           <Route exact path="/barang/editbarang" component={EditBarangComp} />
           <Route exact path="/detailproduk/:id" component={DetailProdukComp} />
           <Route exact path="/daftarproduk" component={DaftarProduk} />

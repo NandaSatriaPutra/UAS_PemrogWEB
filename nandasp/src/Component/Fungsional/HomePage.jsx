@@ -82,7 +82,6 @@ function HomePage() {
         
         <Link to="/about"><Button color="primary">About</Button>{' '}</Link>
         <Link to="/supplier"><Button color="primary">Supplier</Button>{' '}</Link>
-        <Link to="/barang"><Button color="primary">Barang</Button>{' '}</Link>
         <Link to="/daftarproduk"><Button color="primary">Daftar produk Dijual</Button></Link>
 
     </Jumbotron>

@@ -52,7 +52,7 @@ class EditComp extends Component {
     render() {
         return (
             <Container>
-                <h4>Form Ubah Data</h4>
+                <h4>Form Edit Suplier</h4>
                 <Alert color="success" style={{display: this.state.display}}>
                     {this.state.response}
                 </Alert>
@@ -86,7 +86,7 @@ class EditComp extends Component {
                     <FormGroup>
                         <Row>
                             <Col>
-                            <Button type="button" onClick={()=>this.ubahsupplier(this.state.id_supplier)}>Update</Button>
+                            <Button type="button" onClick={()=>this.ubahsupplier(this.state.id_supplier)}>Edit</Button>
                             </Col>
                             <Col>
                             <Link to="/supplier"><Button color="warning">kembali halaman supllier</Button></Link>

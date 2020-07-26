@@ -43,10 +43,10 @@ function DetailProdukComp(props) {
                     <Modal isOpen={modal} toggle={toggle} className={className}>
                         <ModalHeader toggle={toggle}>Pembayaran</ModalHeader>
                         <ModalBody>
-                            <p>Judul</p>
+                            <p>Jenis</p>
                             <h3>{props.location.state.jenis}</h3>
                             <br/>
-                            <p>Harga Buku</p>
+                            <p>Harga</p>
                             <h3>{props.location.state.harga}</h3>
                         </ModalBody>
                         <ModalFooter>
