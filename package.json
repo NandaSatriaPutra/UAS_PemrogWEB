@@ -1,0 +1,23 @@
+{
+  "name": "uas_pemrog-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NandaSatriaPutra/UAS_PemrogWEB.git"
+  },
+  "keywords": [
+    "Reactjs",
+    "Reactstrap"
+  ],
+  "author": "Nanda Satria P",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NandaSatriaPutra/UAS_PemrogWEB/issues"
+  },
+  "homepage": "https://github.com/NandaSatriaPutra/UAS_PemrogWEB#readme"
+}
